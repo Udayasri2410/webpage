@@ -1,0 +1,67 @@
+.demo-welcome-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f7f8f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.demo-welcome-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 28px;
+  color: #1D2226;
+  margin-bottom: 12px;
+}
+
+p {
+  font-size: 18px;
+  color: #1D2226;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-btn {
+  background-color: #6C25FF;
+  color: #fff;
+}
+
+.primary-btn:hover {
+ background-color: #4f57f0;
+}
+
+.secondary-btn {
+  background-color: rgba(108, 37, 255, 0.3);
+  color: #1D2226;
+}
+
+.secondary-btn:hover {
+  background-color: #91bed9;
+}

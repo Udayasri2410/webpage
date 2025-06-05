@@ -1,0 +1,81 @@
+.signup-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f8f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signup-card {
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 420px;
+}
+
+.signup-card h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #1D2226;
+}
+
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #333;
+  color: #5a1fe0;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"],
+.signup-form input[type="tel"] {
+  padding: 10px;
+  margin-bottom: 18px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.radio-group {
+  margin-bottom: 20px;
+  color: black;
+}
+
+.radio-options {
+  display: flex;
+  gap: 20px;
+  margin-top: 8px;
+}
+
+.radio-options label {
+  font-weight: 400;
+  color: #444;
+}
+
+.signup-button{
+  background-color: #6C25FF;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-button:hover {
+  background-color: #4f57f0;
+}
+.ag-lable{
+  color: black !important;
+}

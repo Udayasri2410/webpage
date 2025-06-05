@@ -1,0 +1,87 @@
+.profile-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.profile-card {
+  width: 375px;
+  max-width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-header {
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.profile-header h2 {
+  font-size: 18px;
+  color: #1D2226;
+  text-transform: capitalize;
+}
+
+.profile-body {
+  background-color: #F7F8F9;
+  flex-grow: 1;
+  padding: 16px;
+}
+
+.profile-info {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.profile-image-wrapper {
+  position: relative;
+}
+
+.profile-image {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.badge-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+}
+
+.profile-text h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1D2226;
+  text-transform: capitalize;
+}
+
+.profile-text p {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: #1D2226;
+  text-transform: lowercase;
+}
+
+.profile-description {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333;
+  text-transform: capitalize;
+}
+
+.profile-divider {
+  border-top: 2px dashed #d8dde2;
+  margin-top: 20px;
+}

@@ -1,0 +1,65 @@
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f8f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-card {
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 420px;
+}
+
+.login-card h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #1D2226;
+}
+
+.description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.login-form label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #333;
+  color: blueviolet;
+}
+
+.login-form input {
+  padding: 10px;
+  margin-bottom: 18px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.login-button{
+  background-color: rgba(108, 37, 255, 0.3);
+  color: #1D2226;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.login-button:hover {
+  background-color: #91bed9;
+  color: #fff;
+}
